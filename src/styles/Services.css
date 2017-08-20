@@ -1,0 +1,90 @@
+.Services {
+  text-align: center;
+  min-height: 50vh;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+h2 {
+  font-size: 25px;
+  font-family: 'Libre Baskerville', serif;
+  font-weight: 700;
+  color: #333333;
+  padding-top: 35px;
+  margin: 0 auto;
+}
+
+#sub {
+  font-size: 12px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #eaaf11;
+  letter-spacing: 0.0625em;
+  margin: 0;
+  text-decoration: none;
+}
+
+#sub:hover {
+  text-decoration: underline;
+}
+
+main {
+  display: flex;
+  justify-content: space-around;
+}
+
+#content {
+  text-align: center;
+  padding: 25px;
+  min-height: 100px;
+  width: 250px;
+  margin: 0 auto;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  color: #333333;
+  letter-spacing: 0.0425em;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+.horizontal {
+  background-color: #eaaf11;
+  height: 3px;
+  margin: 0 100px;
+}
+
+ul {
+  padding-left: 0px;
+}
+
+.labor li {
+  font-size: 12px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  letter-spacing: 0.0225em;
+  margin-top: 10px;
+  list-style: none;
+}
+
+.vertical {
+  background-color: #333333;
+  height: 125px;
+  width: 1px;
+  margin-top: 110px;
+}
+
+
+@media (max-width: 460px) {
+  main {
+    flex-direction: column;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .vertical {
+     display: none;
+  }
+}

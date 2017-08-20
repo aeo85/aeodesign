@@ -1,0 +1,49 @@
+.Footer {
+  text-align: center;
+  margin: 0 auto;
+  height: 65px;
+  padding-top: 10px;
+  background-color: #333333;
+}
+
+.Footer-logo {
+  height: 60px;
+  float: left;
+}
+
+.line {
+  background-color: white;
+  height: 10px;
+  width: 1px;
+}
+
+.Footer-nav li {
+  color: white;
+  list-style: none;
+  display: inline;
+  font-size: 12px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  letter-spacing: 0.0625em;
+  padding: 10px;
+  height: 60px;
+}
+
+.social {
+  color: white;
+  list-style: none;
+  display: inline;
+}
+
+.social:hover {
+  color: #eaaf11;
+  text-decoration: none;
+}
+
+
+@media (max-width: 460px) {
+  .Footer {
+    flex-direction: column;
+    height: 130px;
+  }
+}

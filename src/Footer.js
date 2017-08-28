@@ -9,7 +9,7 @@ class Footer extends Component {
       <div className="Footer">
           <ul className="Footer-nav">
             <li>AEO DESIGN</li>
-            <li>&copy; 2017 All Rights Reserved</li>
+            <li>&copy;2017 All Rights Reserved</li>
             <li><a href="https://www.instagram.com/aeodesign/"><i className="fa fa-instagram social" aria-hidden="true"></i></a></li>
             <li><a href="https://www.facebook.com/aeodesign/"><i className="fa fa-facebook social" aria-hidden="true"></i></a></li>
             <li><a href="https://twitter.com/aeodesign"><i className="fa fa-twitter social" aria-hidden="true"></i></a></li>

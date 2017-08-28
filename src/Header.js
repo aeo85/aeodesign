@@ -6,17 +6,17 @@ import HamburgerMenu from 'react-hamburger-menu';
 
 class Header extends Component {
     constructor() {
-    		super();
+    	  super();
     		this.state = {
     			open: [false, true, false, true]
     		};
       }
-    	handleClick(id) {
-    		let { open } = this.state;
-        this.setState({
-    			open: [...open.slice(0, id), !open[id], ...open.slice(id + 1)]
-    		});
-        console.log('')
+  	handleClick(id) {
+  		let { open } = this.state;
+      this.setState({
+  			open: [...open.slice(0, id), !open[id], ...open.slice(id + 1)]
+  		});
+      console.log('')
     	}
 
   render() {
@@ -32,7 +32,7 @@ class Header extends Component {
           <li><a href="#blog">blog</a></li>
           <li><a href="https://www.instagram.com/aeodesign/"><i className="fa fa-instagram" aria-hidden="true"></i></a></li>
           <li><a href="https://www.facebook.com/aeodesign/"><i className="fa fa-facebook" aria-hidden="true"></i></a></li>
-          <li><a href="https://twitter.com/aeodesign"><i className="fa fa-twitter" aria-hidden="true"></i></a></li>
+          <li><a href="https://www.twitter.com/aeodesign"><i className="fa fa-twitter" aria-hidden="true"></i></a></li>
           <li><a href="https://www.pinterest.com/amynedervelt/"><i className="fa fa-pinterest-p" aria-hidden="true"></i></a></li>
           <li><a href="https://www.instagram.com/amynedervelt/"><i className="fa fa-dribbble" aria-hidden="true"></i></a></li>
         </ul>
@@ -40,11 +40,11 @@ class Header extends Component {
           <HamburgerMenu
             isOpen={this.state.open[0]}
             menuClicked={this.handleClick.bind(this, 0)}
-            width={26}
+            width={25}
             height={20}
             strokeWidth={1}
             rotate={0}
-            color='black'
+            color='#333333'
             borderRadius={5}
             animationDuration='0.3'
             />

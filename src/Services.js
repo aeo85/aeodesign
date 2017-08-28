@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import './styles/Services.css';
-import identity from './images/identity.png';
-import print from './images/print.png';
-import digital from './images/digital.png';
+import identity2 from './images/identity2.png';
+import print2 from './images/print2.png';
+import digital2 from './images/digital2.png';
 
 class Services extends Component {
   render() {
@@ -13,7 +13,7 @@ class Services extends Component {
             <p id="sub">view the work</p>
         <main>
             <section id="content">
-              <img src={identity} alt="bd" />
+              <img src={identity2} className='resize' alt="identity" />
               <h3>identity</h3>
               <div className="horizontal"> </div>
               <ul className="labor">
@@ -25,7 +25,7 @@ class Services extends Component {
             </section>
                   <div className="vertical"> </div>
             <section id="content">
-              <img src={print} alt="bd" />
+              <img src={print2} className='resize' alt="print" />
               <h3>print</h3>
               <div className="horizontal"> </div>
               <ul className="labor">
@@ -37,7 +37,7 @@ class Services extends Component {
             </section>
                   <div className="vertical"> </div>
             <section id="content">
-              <img src={digital} alt="d" />
+              <img src={digital2} className='resize' alt="digital" />
               <h3>digital</h3>
               <div className="horizontal"> </div>
               <ul className="labor">

@@ -100,15 +100,16 @@ textarea {
 }
 
 #submit-button {
-  width: 60px;
-  height: 60px;
+  width: 100px;
+  height: 50px;
+  padding: 10px;
   font-size: 12px;
   font-family: 'Montserrat', sans-serif;
   font-weight: 300;
   letter-spacing: 0.0225em;
+  color: #333333;
+  text-transform: uppercase;
 }
-
-
 
 @media (max-width: 460px) {
   main {

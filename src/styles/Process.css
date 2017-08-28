@@ -72,6 +72,10 @@ h3 {
   margin-top: 10px;
 }
 
+.resize {
+  width: 60px;
+}
+
 .vertical {
   background-color: #333333;
   height: 125px;

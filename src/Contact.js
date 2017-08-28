@@ -14,7 +14,7 @@ class Contact extends Component {
           <p className="freelance"><a href="mailto:aeodesigns@gmail.com" className="">Available for freelance work</a></p>
         </section>
         <section className="section2">
-            <form className="form" id="form1">
+            <form action="https://www.enformed.io/8vwj2t8n" method="POST" className="form" id="form1">
               <p className="name">
                 <input name="name" type="text" className="validate[required,custom[onlyLetter],length[0,100]] feedback-input" placeholder="name" id="name" />
               </p>

@@ -76,10 +76,10 @@ form {
   text-align: center;
 }
 
-input {
+p.name input {
   width: 350px;
   padding: 10px;
-  font-size: 12px;
+  font-size: 10px;
   font-family: 'Montserrat', sans-serif;
   font-weight: 300;
   letter-spacing: 0.0225em;
@@ -87,11 +87,10 @@ input {
   text-transform: uppercase;
 }
 
-textarea {
+p.email input {
   width: 350px;
-  height: 50px;
   padding: 10px;
-  font-size: 12px;
+  font-size: 10px;
   font-family: 'Montserrat', sans-serif;
   font-weight: 300;
   letter-spacing: 0.0225em;
@@ -99,17 +98,38 @@ textarea {
   text-transform: uppercase;
 }
 
-#submit-button {
-  width: 100px;
+p.text textarea {
+  width: 350px;
   height: 50px;
   padding: 10px;
-  font-size: 12px;
+  font-size: 10px;
   font-family: 'Montserrat', sans-serif;
   font-weight: 300;
   letter-spacing: 0.0225em;
   color: #333333;
   text-transform: uppercase;
 }
+
+div.submit input {
+  width: 150px;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #333333;
+  background-color: #eaaf11;
+  border: 0px;
+  padding: 10px 40px 10px 40px;
+  margin-top: 10px;
+}
+
+#submit-button:hover {
+  color: #333333;
+  transition: all 0.5s ease;
+  background-color: #fcc125;
+  text-decoration: none;
+}
+
+
 
 @media (max-width: 460px) {
   main {

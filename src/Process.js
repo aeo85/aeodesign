@@ -16,21 +16,23 @@ class Process extends Component {
             <img src={bd2} className="resize" alt="breand development" />
             <h3>brand development</h3>
             <div className="horizontal"> </div>
-            <article id="description">The life that is brought to your brand. We identify the who, what, and why to determine the goal for your company or service.</article>
+            <article id="description">Identifying the who, what, and why to determine the goal for your company. Developing  the strategy that’s going to make your brand recognizable.</article>
           </section>
               <div className="vertical"> </div>
           <section id="content">
             <img src={ad2} className="resize" alt="art direction" />
             <h3>art direction</h3>
             <div className="horizontal"> </div>
-            <article id="description"> Paying attention to the mood and tone to make something. Lorem ipsum dolor set et ud ait conspireaut soleu. </article>
+            <article id="description"> Making sure that your imagery and brand looks beautiful and meaningful.
+            Evoking the mood and tone to give you the best possible design solution. </article>
           </section>
               <div className="vertical"> </div>
           <section id="content">
             <img src={gd2} className="resize" alt="graphic design" />
             <h3>graphic design</h3>
             <div className="horizontal"> </div>
-            <article id="description">The nitty gritty of what you need or want. We got your back. Lorem ipsum dolor set et ud ait conspireaut soleu.</article>
+            <article id="description">Putting pen to paper. Interpreting the client&rsquo;s needs and making them come to life — whether it&rsquo;s a logo, collateral, or digital design.
+             </article>
           </section>
         </main>
       </div>

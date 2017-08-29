@@ -48,6 +48,7 @@
   display: none;
 }
 
+
 @media (max-width: 800px) {
   .Header-logo {
     float: none;
@@ -65,7 +66,6 @@
     margin-left: 12px;
     text-align: center;
   }
-
   .field {
     display: block;
     background-color: #eceae7;

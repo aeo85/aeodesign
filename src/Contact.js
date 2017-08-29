@@ -10,7 +10,7 @@ class Contact extends Component {
         <section className="section1">
           <div className="vert"></div>
           <h4>Interested? Let&rsquo;s Get Started!</h4>
-          <article className="bio">Let&rsquo;s talk about your needs & wants over coffee – or bagels or donuts or cupcakes! Need brand advice or guidance? Let&rsquo;s get down to business and cleary define that direction. Fill out form and I will reply back.</article>
+          <article className="bio">Let&rsquo;s talk about your needs & wants over coffee – or bagels or donuts or cupcakes! Need brand advice or guidance? Let&rsquo;s get down to business and define that direction. Fill out form and I will reply back.</article>
           <p className="freelance"><a href="mailto:aeodesigns@gmail.com" className="">Available for freelance work</a></p>
         </section>
         <section className="section2">
